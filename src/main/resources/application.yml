@@ -4,9 +4,9 @@ spring:
   application:
     name: Customers
   datasource:
-    url: postgresql://dpg-d36o5vbipnbc739cjto0-a.oregon-postgres.render.com:5432/Customers
-    username: customers_lzzq_user
-    password: RmDe7AADM3z76qn7EsoZyfr7MhBsyom2
+    url: postgresql://dpg-d36olvj3fgac738vfp5g-a.oregon-postgres.render.com:5432/Customers2
+    username: customer2_user
+    password: o0mbbfpKclekUFg1PBzFeqEktGP8FiZI
     driver-class-name: org.postgresql.Driver
   jpa:
     show-sql: true
