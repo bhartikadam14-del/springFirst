@@ -4,11 +4,14 @@ spring:
   application:
     name: Customers
   datasource:
-    url: jdbc:mysql://localhost:3306/spr240
+    url: postgresql://dpg-cuhn2jrtq21c73bclu10-a.oregon-postgres.render.com:5432/ppspr
     username: root
     password: root
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    driver-class-name: org.postgresql.Driver
   jpa:
     show-sql: true
     hibernate:
       ddl-auto: update
+      eureka:
+  instance:
+    hostname: localhost
